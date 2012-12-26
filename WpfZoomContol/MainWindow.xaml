@@ -1,0 +1,18 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:WPFControls="clr-namespace:System.Windows.Controls;assembly=WPFControls" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" x:Name="window" mc:Ignorable="d" x:Class="WpfZoomContol.MainWindow"
+        Title="MainWindow" WindowState="Normal" Width="1000" Height="480" WindowStyle="ThreeDBorderWindow" AllowsTransparency="False" WindowStartupLocation="CenterScreen">
+    <Grid x:Name="LayoutRoot">
+        <WPFControls:ZoomControl x:Name="zoomControl" ZoomFactor="1" Background="Aqua">
+            <Grid x:Name="ParentGrid" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <WPFControls:FlexyPanel x:Name="wrapPanel" ItemMargin="5" Width="1280" Height="780" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FF585858" NavigationTriggerMode="MouseDrag" AllowDragMoveChild="True"/>
+            </Grid>
+        </WPFControls:ZoomControl>
+        <Grid Background="#FF3E3E3E" Height="66" VerticalAlignment="Top" HorizontalAlignment="Right" Width="125">
+            <TextBlock HorizontalAlignment="Right" TextWrapping="Wrap" Text="{Binding Margin, ElementName=ParentCanvas, Mode=Default}" VerticalAlignment="Top" Margin="0,8,8,0" Foreground="White" />
+            <TextBlock HorizontalAlignment="Right" TextWrapping="Wrap" Text="{Binding Margin, ElementName=ParentGrid}" VerticalAlignment="Top" Margin="0,27.96,8,0" Foreground="White" />
+            <TextBlock HorizontalAlignment="Right" TextWrapping="Wrap" Text="{Binding ZoomFactor, ElementName=zoomControl1}" VerticalAlignment="Top" Margin="0,47.92,8,0" Foreground="White" />
+        </Grid>
+    </Grid>
+</Window>

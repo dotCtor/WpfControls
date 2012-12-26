@@ -1,0 +1,16 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:System.Windows.Controls;assembly=WPFControls" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:GeneuPlanner="clr-namespace:GeneuPlanner;assembly=GeneuPlanner" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WPFFlexyPanel.MainWindow"
+        Title="MainWindow" Height="491" Width="525">
+    <Grid x:Name="LayoutRoot">
+        <my:FlexyPanel x:Name="flexyPanel" ItemMargin="5" NavigationTriggerMode="MouseDrag" Background="#FFE0E0E0" AllowDragMoveChild="True" IsNavigationAnimated="True">
+            <Rectangle Fill="Black" Height="200" Width="200"></Rectangle>
+            <Rectangle Fill="Black" Height="200" Width="200"></Rectangle>
+            <Rectangle Fill="Black" Height="200" Width="200"></Rectangle>
+            <Rectangle Fill="Black" Height="200" Width="200"></Rectangle>
+            <Rectangle Fill="Black" Height="200" Width="200"></Rectangle>
+            <Rectangle Fill="Black" Height="200" Width="200"></Rectangle>
+        </my:FlexyPanel>
+    </Grid>
+</Window>
