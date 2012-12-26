@@ -1,1 +1,1 @@
-WPF Control Library
+Wpf control library contains a zoom control and a visual element paging control. More descriptin comes out soon.
