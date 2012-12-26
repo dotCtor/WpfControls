@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.WpfZoomContol", "WpfZoomContol\Test.WpfZoomContol.csproj", "{A1E5A78E-B90A-4FDA-B8EA-32A55D453D3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.WpfZoomContol", "Test\WpfZoomContol\Test.WpfZoomContol.csproj", "{A1E5A78E-B90A-4FDA-B8EA-32A55D453D3C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFControls", "WPFControls\WPFControls.csproj", "{92B2FFDA-9C36-4385-926E-CCCDB6299484}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.WPFFlexyPanel", "WPFFlexyPanel\Test.WPFFlexyPanel.csproj", "{18B5A7C1-FA12-443F-91F2-93EF3E52859D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.WPFFlexyPanel", "Test\WPFFlexyPanel\Test.WPFFlexyPanel.csproj", "{18B5A7C1-FA12-443F-91F2-93EF3E52859D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
